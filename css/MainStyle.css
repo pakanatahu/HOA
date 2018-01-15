@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+h2, a {
+  font-family: 'Varela Round', sans-serif;
+}
+.mainHeader {
+  background-image: url("../img/snickarePaTak.jpg");
+  height: 680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip:inherit;
+}
+
+.nav-link {
+  color: rgb(206, 219, 206);
+}
+
+.nav-link:hover{
+  color:rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 500px){
+  .flex-container {
+    flex-direction: column;
+  }
+}
+#about {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgb(43, 43, 43);
+  border-top: 4px solid rgb(182, 144, 47);
+  border-bottom: 4px solid rgb(182, 144, 47);
+}
+
+.flex-container {
+  display: flex;
+  padding: 20px 2%;
+
+}
+
+.flexbox {
+
+  display: flex;
+  padding: 4px;
+  flex-direction: column;
+}
+
+.flexbox h2{
+  text-align: center;
+  color: rgb(223, 223, 223);
+}
+
+.flexbox p{
+  font-size: 18px;
+  width: 90%;
+  color: rgb(199, 199, 199);
+}
+
+section {
+  margin: 0px;
+}
+
+#headerText {
+  color: rgb(11, 11, 11);
+}
+
+#about, #services {
+}
+
+#contact, #projects
+{
+  background-color: rgb(247, 244, 239);
+}
+
+#mainNav {
+  background-color: rgb(43, 43, 43);
+  border-bottom: 4px solid rgb(182, 144, 47);
+}
+
+.nav-item {
+  padding: 0px 22px;
+}
+
+.nav-item > a {
+  color: rgb(199, 199, 199); !important;
+  font-size: 22px;
+
+}
+
+.nav-item > a:hover {
+  color: rgb(182, 144, 47) !important;
+
+}
+
+footer {
+  background color: rgb(43, 43, 43);
+}
+
+
+/*#############################################################################
+#####################   SLIDE SHOW STYLE      #################################
+###############################################################################
+*/
